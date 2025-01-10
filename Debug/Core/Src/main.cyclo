@@ -1,0 +1,15 @@
+../Drivers/CMSIS/Include/core_cm4.h:2064:26:ITM_SendChar	4
+../Core/Src/main.c:90:6:send_to_lsa	1
+../Core/Src/main.c:101:5:_write	2
+../Core/Src/main.c:112:9:line_data	1
+../Core/Src/main.c:122:5:process_byte	4
+../Core/Src/main.c:142:5:junction_data	1
+../Core/Src/main.c:147:6:setMotorSpeed	6
+../Core/Src/main.c:174:6:computePID	3
+../Core/Src/main.c:227:5:main	12
+../Core/Src/main.c:412:6:SystemClock_Config	3
+../Core/Src/main.c:458:13:MX_TIM2_Init	6
+../Core/Src/main.c:517:13:MX_TIM3_Init	8
+../Core/Src/main.c:584:13:MX_USART1_UART_Init	2
+../Core/Src/main.c:617:13:MX_GPIO_Init	1
+../Core/Src/main.c:668:6:Error_Handler	1

@@ -2,13 +2,8 @@
 
 This project is a high-speed, high-accuracy line follower robot based on the STM32F411 microcontroller. The robot utilizes an [LSA08](https://robu.in/wp-content/uploads/2015/11/LSA08-Users-Manual-Jun12.pdf) sensor for line detection via UART communication and is driven by two [N20 300RPM](https://robu.in/product/n20-12v-300-rpm-micro-metal-gear-motor/?gad_source=1&gclid=Cj0KCQiAqL28BhCrARIsACYJvkfTXdTgoVehS03U7q7NQAJsIl6GadeOPt4iYMQUSQA3hKH54x4fSKAaAoOtEALw_wcB) motors controlled through an [MDD3A](https://docs.google.com/document/d/1ax3gSo0srTzoSr2bo8ETLym0OqrYjlk_JCZK4kxtfXg/edit?tab=t.0) motor driver. A PID control algorithm is implemented to achieve precise and efficient line tracking.
 
-## Features
-- **Microcontroller:** STM32F411
-- **Line Sensor:** LSA08 (UART communication)
-- **Motors:** 2x N20 DC motors
-- **Motor Driver:** MDD3A
-- **Control Algorithm:** PID (Proportional-Integral-Derivative)
-- **High-Speed and Accurate Line Following**
+## Control Algorithm:
+PID (Proportional-Integral-Derivative) for High-Speed and Accurate Line Following
 
 ## Hardware Components
 1. **STM32F411 Development Board** - Controls the entire system
